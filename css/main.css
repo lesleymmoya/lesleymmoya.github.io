@@ -1,0 +1,248 @@
+/****** BASE STYLES ******/
+
+body {
+    font-family: 'Barlow', sans-serif;
+    color: #FF7D55;
+}
+
+#portfolio {
+    height: 1450px;
+}
+
+#about {
+    height: 600px;
+}
+
+#contact {
+    height: 400px;
+}
+
+#footer {
+    height: 200px;
+}
+/****** GRID ******/
+
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+}
+.half-width {
+    width: 600px;
+    float: left;
+}
+.third-width {
+    width: 400px;
+    float: left;
+}
+
+/****** HEADER ******/
+
+header {
+    height: 800px;
+    background: url('../img/hero-image.png');
+    background-size: cover;
+}
+
+header h1 {
+    font-family: 'Barlow', sans-serif;
+    text-transform: uppercase;
+    font-size: 18px;
+    color: #828282;
+    padding: 1px 0 65px 25px;
+}
+
+nav {
+    float: right;
+    padding: 1px 25px;
+}
+
+nav ul li{
+    display: inline-block;
+}
+
+nav ul li a {
+    font-family: 'Barlow', sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 18px;
+    color: #828282;
+    padding-left: 60px;
+}
+
+header h2 {
+    width: 1200px;
+    clear: both;
+    font-family: 'Amatic SC', cursive;
+    font-size: 55px;
+    color: #828282;
+    padding-top: 0;
+    padding-left: 300px;
+    padding-bottom: 30px;
+    margin: 0 auto;
+}
+
+header h2 span {
+    color: #FF7D55;
+    font-size: 65px;
+}
+
+
+/****** PORTFOLIO ******/
+#portfolio  {
+    background-color: white;
+    height: 1450px;
+}
+
+#portfolio .full-width {
+    padding: 25px 0;
+}
+
+#portfolio-header {
+  font-family: 'Barlow', sans-serif;
+  text-transform: uppercase;
+  font-size: 18px;
+  color: #828282;
+  padding: 1px 0 65px 25px;
+}
+
+#portfolio h3 {
+  font-size: 36px;
+  color: #FF7D55;
+  padding: 55px 500px 60px 500px;
+  margin: 0 auto;
+  clear: both;
+}
+
+#rogue-img, #jubilee-img, #holstee-img {
+    margin-left: 25px;
+    padding: 25px;
+    float: left;
+}
+
+#portfolio h4 {
+    font-size: 18px;
+    margin-left: 23px;
+    padding: 100px 0 0 0;
+    float: left;
+}
+
+#portfolio p {
+    font-size: 18px;
+    color: #828282;
+    padding: 5px 0 0 20px;
+    float: left;
+}
+
+
+/****** ABOUT ******/
+
+#about {
+    height: 600px;
+    background: url('../img/about-me-picture-desk.png');
+    background-size: cover;
+    border-top: white 70px solid;
+}
+
+#about h3 {
+    font-size: 36px;
+    color: #FF7D55;
+    padding: 55px 500px 60px 500px;
+    margin: 0 auto;
+    clear: both;
+}
+
+#about p {
+    font-family: 'Barlow', sans-serif;
+    color: #828282;
+    font-size: 20px;
+    line-height: 35px;
+    padding: 1px 50px 0 400px;
+    clear: both;
+    width: 900px;
+}
+
+/****** CONTACT ******/
+
+#contact .full-width {
+    padding: 35px 50px 25px 50px;
+    background-color: white;
+    width: 1200px;
+    height: 400px;
+}
+
+#contact h3 {
+   font-size: 36px;
+   color: #FF7D55;
+   padding: 25px 500px 25px 500px;
+   margin: 0 auto;
+   clear: both;
+   width: 900px;
+}
+
+#contact .third-width {
+   width: 400px;
+}
+
+#contact h5 {
+   font-family: 'Barlow', sans-serif;
+   font-size: 24px;
+   color: #FF7D55;
+   padding-left: 140px;
+}
+
+#contact #email-address {
+   text-decoration: none;
+   font-family: 'Barlow', sans-serif;
+   font-size: 18px;
+   color: #828282;
+   padding-left: 140px;
+}
+
+#contact #socialmedia-header {
+   font-family: 'Barlow', sans-serif;
+   font-size: 24px;
+   font-weight: bold;
+   color: #FF7D55;
+   text-decoration: none;
+   padding-left: 150px;
+}
+
+#contact ul {
+   list-style: none;
+}
+
+#contact ul li {
+   display: inline-block;
+}
+
+#contact li {
+   padding-right: 25px;
+}
+
+#contact #social-icons {
+   padding-left: 100px;
+}
+
+#contact #meet h5 {
+   font-family: 'Barlow', sans-serif;
+   font-size: 24px;
+   color: #FF7D55;
+   font-weight: bold;
+}
+
+#contact p {
+  font-family: 'Barlow', sans-serif;
+  font-size: 18px;
+  color: #828282;
+  padding-left: 140px;
+}
+
+footer .full-width {
+    height: 150px;
+}
+
+footer h6 {
+    font-size: 18px;
+    color: #FF7D55;
+    padding: 50px 400px 5px 475px;
+}
